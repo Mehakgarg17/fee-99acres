@@ -1,0 +1,51 @@
+/* App.css */
+.App {
+    text-align: center;
+  }
+  /* .property-listing-container {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5c341ea93e2d09426b42e4a5/1550025541784-I5JT06GH8Y9DEL5N90BP/DSC09065.jpg');
+    background-size: cover;
+    height: 250px;
+    background-position: center;
+    padding: 20px;
+  } */
+  .property-listing-container h1{
+    margin-top: 280px;
+  }
+  .property-listing {
+    /* margin-top: 150px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .background-container {
+    position: relative;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5c341ea93e2d09426b42e4a5/1550025541784-I5JT06GH8Y9DEL5N90BP/DSC09065.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    height: 250px; /* Adjust height as needed */
+  }
+  
+  .extended-search-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .property-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .property-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+  }

@@ -1,0 +1,25 @@
+/* ExtendedSearchBar.css */
+.extended-search-bar {
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .extended-search-bar input {
+    margin-right: 10px;
+    padding: 8px;
+    width: 450px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .extended-search-bar button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
